@@ -4,4 +4,7 @@
 angular.module('myApp.controllers', [])
 .controller('myngController', ['$scope', function ($scope){
         $scope.wtf = 'MISSION COMPLETE';
+    }])
+.controller('welcomeController', ['$scope', function($scope){
+        $scope.testValue = 'testestestestestest';
     }]);

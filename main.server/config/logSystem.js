@@ -5,9 +5,10 @@ var winston = require('winston');
 var fs = require('fs');
 var viewHelpers = require('view-helpers');
 
-module.exports = (function () {
+module.exports = function (config) {
     winston.setLevels(winston.config.npm.levels);
-    var loggers = {
+    var loggers = config.loggers;
+/*    {
         console: {
             level: 'debug',
             colorize: true,
@@ -19,8 +20,8 @@ module.exports = (function () {
             maxsize: 5304433,
             maxFiles: 20
         }
-    };
-    var logPath = './log';
+    };*/
+    var logPath = config.logPath;
     if (!fs.existsSync(logPath)){
         fs.mkdirSync(logPath);
     };
@@ -30,4 +31,4 @@ module.exports = (function () {
 
 
     return winston.loggers.get('defaultLogger');
-})();
+};

@@ -1,0 +1,18 @@
+{
+    "appName": "Who is the Spy",
+    "author": "Andy Cui",
+    "logPath": "./log",
+    "loggers": {
+        "console": {
+            "level": "debug",
+            "colorize": true,
+            "timestamp": true
+        },
+        "file": {
+            "level": "debug",
+            "timestamp": true,
+            "maxsize": 5304433,
+            "maxFiles": 20
+        }
+    }
+}
