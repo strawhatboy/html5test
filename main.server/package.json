@@ -1,0 +1,43 @@
+{
+  "name": "myTestNodeJS",
+  "description": "myTestNodeJS",
+  "version": "0.0.1-alpha",
+  "private": false,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "connect-flash": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "winston": "latest",
+    "underscore": "latest",
+    "view-helpers": "latest",
+    "pg": "latest",
+    "async": "latest",
+    "yadda": "latest",
+    "chai": "latest",
+    "should": "latest",
+    "string": "latest",
+    "request": "latest",
+    "node-uuid": "latest",
+    "squel": "latest",
+    "rally": "latest",
+    "node-schedule": "latest",
+    "lodash": "latest",
+    "q": "latest",
+    "elasticsearch": "latest",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-conventional-changelog": "~0.1.1",
+    "grunt-bump": "0.0.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4"
+  }
+}
